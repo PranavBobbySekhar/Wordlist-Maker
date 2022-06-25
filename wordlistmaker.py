@@ -33,7 +33,7 @@ with open('wordlistmaker_orig.py', 'a') as g:
         indentation = "\t" * indentation_count
         g.write(f'''{indentation}f.write(f"{password}\\n")
 {indentation}passwords += 1
-        print(f"{{passwords}} passwords written to wordlist.txt")''')
+	print(f"{{passwords}} passwords written to wordlist.txt")''')
 
 import wordlistmaker_orig
 os.remove('wordlistmaker_orig.py')
