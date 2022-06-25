@@ -7,7 +7,7 @@ password = ""
 
 passdigits = input('How many digits does the password have: ')
 
-if passdigits > 6:
+if int(passdigits) > 6:
         print('Warning: This may take some time because the password is longer than 6 digits')
 
 for i in range(int(passdigits)):
